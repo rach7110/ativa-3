@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   def new
-	@user = User.new
+    @user = User.new
   end
 
   def show
@@ -18,6 +18,6 @@ class UsersController < ApplicationController
   end
 
   def index
-	@users = User.all
+	  @users = User.all
   end
 end
