@@ -19,11 +19,11 @@ end
 projects = [
 	'Mother Flocker',
 	'Gifanator',
-	'ATX Jobs', 
+	'ATX Jobs',
 	'Connect2Good',
 	'Bring Up',
-	'Harsh is the Cool'
-	'Matt is Better'
+	'Harsh is the Cool',
+	'Matt is Better',
 	'MakerSquare'
 ]
 
