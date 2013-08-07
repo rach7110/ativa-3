@@ -15,10 +15,11 @@ phases = ['onboarding','creative', 'design', 'development', 'implementation']
 phases.each do |phase|
 	Phase.create(name: phase)
 end
+
 projects = [
 	'Mother Flocker',
 	'Gifanator',
-	'ATX Jobs', 
+	'ATX Jobs',
 	'Connect2Good',
 	'Bring Up',
 	'Harsh is the Cool',
@@ -27,7 +28,7 @@ projects = [
 ]
 
 projects.each do |project|
-	Project.create(name: project, phase_id: Phase.first.id)
+	Project.create(name: project, phase_id: (5 * rand + 1).floor)
 end
 
 puts "Added projects"
