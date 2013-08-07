@@ -6,4 +6,11 @@ module ApplicationHelper
       "Perfect Search Design | Ativa"
     end
   end
+
+  def if_admin(&block)
+    if current_user.admin?
+      content_tag(:div, capture(&block))
+    end
+  end
+
 end

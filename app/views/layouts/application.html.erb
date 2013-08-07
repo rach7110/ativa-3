@@ -36,6 +36,10 @@
       </div>
     </div>
   </div>
+  <p>I'm just a normal paragraph anyone can see</p>
+    <%= if_admin do %>
+      <p>This is a paragraph that only users with admin set to true will be able to see</p>
+    <% end %>
 </div>
 <div class="container">
   <div class="row">
